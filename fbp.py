@@ -155,7 +155,7 @@ if animate:
    try:
       sinogram = np.load(path)
       # If we want to plot the same for a filter -> filter the sinogram here
-      sinogram = apply_filter(sinogram, filters.ram_lak)
+      # sinogram = apply_filter(sinogram, filters.ram_lak)
    except OSError:
       print("No sinogram found")
       exit()

@@ -27,7 +27,7 @@ def main():
 
     # filters.plot_all()
 
-    fbp.compare_fbp_by_filter(image, sinogram)
+    # fbp.compare_fbp_by_filter(image, sinogram)
 
 def show_fourier():
     # square in the middle
